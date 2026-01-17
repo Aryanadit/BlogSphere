@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/* Custom styles for blog content */
+.browser-css {
+    line-height: 1.8;
+}
+
+.browser-css h1,
+.browser-css h2,
+.browser-css h3,
+.browser-css h4,
+.browser-css h5,
+.browser-css h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.browser-css h1 {
+    font-size: 2em;
+}
+
+.browser-css h2 {
+    font-size: 1.75em;
+}
+
+.browser-css h3 {
+    font-size: 1.5em;
+}
+
+.browser-css p {
+    margin-bottom: 1em;
+}
+
+.browser-css ul,
+.browser-css ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.browser-css li {
+    margin-bottom: 0.5em;
+}
+
+.browser-css a {
+    color: #4f46e5;
+    text-decoration: underline;
+}
+
+.browser-css a:hover {
+    color: #4338ca;
+}
+
+.browser-css img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 1.5em 0;
+}
+
+.browser-css code {
+    background-color: #f3f4f6;
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.browser-css pre {
+    background-color: #1f2937;
+    color: #f3f4f6;
+    padding: 1em;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.5em 0;
+}
+
+.browser-css blockquote {
+    border-left: 4px solid #4f46e5;
+    padding-left: 1em;
+    margin: 1.5em 0;
+    font-style: italic;
+    color: #6b7280;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
