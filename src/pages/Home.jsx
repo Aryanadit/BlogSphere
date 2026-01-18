@@ -79,7 +79,7 @@ export default function Home(){
                 <div className='bg-white rounded-2xl shadow-lg p-6 md:p-8 mb-8 border border-gray-100'>
                     <div className='flex flex-col md:flex-row items-center gap-6'>
                         {/* Pookie Image */}
-                        <div className='flex-shrink-0'>
+                        <div className='shrink-0'>
                             <img 
                                 src="/pookie.jpg" 
                                 alt="Welcome" 
