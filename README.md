@@ -36,6 +36,17 @@ A beautiful, modern blogging platform built with React, Redux, and Appwrite. Cre
   - File Storage
   - Cloud functions
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/Home.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/Login.png)
+
+### 📝 Blog
+![Blog](screenshots/Blog.png)
+
 ## 📦 Installation
 
 1. **Clone the repository**

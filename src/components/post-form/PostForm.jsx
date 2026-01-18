@@ -66,7 +66,7 @@ export default function PostForm({post}){
         } catch (error) {
             console.error("Post submit error:", error)
             alert(error.message)
-        } finally {
+        } finally {       
             setIsSubmitting(false) 
         }
     }
