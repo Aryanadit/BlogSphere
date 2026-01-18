@@ -189,30 +189,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
-## 🙏 Acknowledgments
-
-- [Appwrite](https://appwrite.io/) for the amazing BaaS platform
-- [TinyMCE](https://www.tiny.cloud/) for the rich text editor
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [React](https://react.dev/) team for the incredible framework
-
-## 📚 Learn More
-
-- [React Documentation](https://react.dev/)
-- [Appwrite Documentation](https://appwrite.io/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vite.dev/)
-
----
-
 ⭐ If you found this project helpful, please give it a star on GitHub!
