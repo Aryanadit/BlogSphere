@@ -37,30 +37,30 @@ export default function Post() {
             <Container>
                 <article className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
                     <div className="w-full relative">
-                        <img
-                            src={appwriteService.getFilePreview(post.featuredImage)}
-                            alt={post.title}
+                    <img
+                        src={appwriteService.getFilePreview(post.featuredImage)}
+                        alt={post.title}
                             className="w-full h-96 object-cover"
-                        />
+                    />
 
-                        {isAuthor && (
+                    {isAuthor && (
                             <div className="absolute right-6 top-6 flex gap-3">
-                                <Link to={`/edit-post/${post.$id}`}>
+                            <Link to={`/edit-post/${post.$id}`}>
                                     <Button bgColor="bg-green-500" className="shadow-lg">
-                                        Edit
-                                    </Button>
-                                </Link>
-                                <Button bgColor="bg-red-500" onClick={deletePost} className="shadow-lg">
-                                    Delete
+                                    Edit
                                 </Button>
-                            </div>
-                        )}
-                    </div>
+                            </Link>
+                                <Button bgColor="bg-red-500" onClick={deletePost} className="shadow-lg">
+                                Delete
+                            </Button>
+                        </div>
+                    )}
+                </div>
                     <div className="p-8">
                         <h1 className="text-4xl font-bold text-gray-800 mb-6">{post.title}</h1>
                         <div className="prose prose-lg max-w-none browser-css text-gray-700">
                             {parse(post.content)}
-                        </div>
+                </div>
                     </div>
                 </article>
             </Container>

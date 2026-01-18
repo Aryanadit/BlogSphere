@@ -37,8 +37,8 @@ export default function Login(){
     >
         <div className={`mx-auto w-full max-w-lg bg-white rounded-2xl p-10 shadow-xl border border-gray-200`}>
         <div className="mb-2 flex justify-center">
-                    <span className="inline-block w-full max-w-100px">
-                        <Logo width="100%" />
+                    <span className="justify-center inline-block w-full max-w-100px">
+                        <Logo width="70px" />
                     </span>
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight">Sign in to your account</h2>

@@ -41,7 +41,7 @@ export default function Header(){
             <Container>
                 <nav className='flex items-center'>
                     <div className='mr-4'>
-                        <Link to='/' className='transition-transform hover:scale-105'>
+                        <Link to='/' className='flex items-center transition-transform hover:scale-105 '>
                             <Logo width='70px'/>
                         </Link>
                     </div>

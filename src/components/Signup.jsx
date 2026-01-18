@@ -17,24 +17,26 @@ export default function Signup(){
     setError('')
 
     try {
+        // Always ensure clean state
+        await authService.logout().catch(() => {})
+        
         // Try creating account
         await authService.createAccount(data)
     } catch (error) {
-        // If error is NOT 409, stop here
+        // Only ignore "already exists"
         if (error.code !== 409) {
             setError(error.message)
             return
         }
-        console.log("error is 409 : User already Exists")
-        // else: continue to login
     }
 
     try {
-        // Login (works for both new & existing users)
         const { email, password } = data
+
+        // Login
         await authService.login({ email, password })
 
-        // Fetch current user
+        // Fetch user
         const userData = await authService.getCurrentUser()
 
         if (userData) {
@@ -47,13 +49,14 @@ export default function Signup(){
     }
 }
 
+
 return (
     <div className="flex items-center justify-center py-12">
             <div className={`mx-auto w-full max-w-lg bg-white rounded-2xl 
                 p-10 shadow-xl border border-gray-200`}>
             <div className="mb-2 flex justify-center">
                     <span className="inline-block w-full max-w-100px">
-                        <Logo width="100%" />
+                        <Logo width="70px" />
                     </span>
                 </div>
                 <h2 className="text-center text-2xl font-bold leading-tight">Sign up to create account</h2>
