@@ -186,9 +186,6 @@ blogsphere/
 2. Deploy the `dist` folder to Netlify
 3. Add environment variables in Netlify dashboard
 
-## 📸 Screenshots
-
-_Add screenshots of your application here_
 
 ## 🤝 Contributing
 
